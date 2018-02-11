@@ -9,7 +9,8 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico",
+        "assets/img"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -19,9 +20,20 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "./assets/vendor/font-awesome/css/font-awesome.min.css",
+        "./assets/vendor/simple-line-icons/css/simple-line-icons.css",
+        "./assets/css/stylish-portfolio.min.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "./assets/js/stylish-portfolio.min.js",
+        "./assets/vendor/jquery/jquery.min.js",
+        "./assets/vendor/jquery-easing/jquery.easing.min.js"
+
+        
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
