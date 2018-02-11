@@ -21,7 +21,7 @@
       "prefix": "app",
       "styles": [
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
-        "./assets/vendor/font-awesome/css/font-awesome.min.css",
+        "../node_modules/font-awesome/css/font-awesome.css",
         "./assets/vendor/simple-line-icons/css/simple-line-icons.css",
         "./assets/css/stylish-portfolio.min.css",
         "styles.css"
